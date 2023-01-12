@@ -1,0 +1,191 @@
+:root {
+  --slate: #434455;
+  --navy-blue: #2e2f42;
+  --cloud: #f4f4fd;
+  --white: #fff;
+  --iris: #4d5ae5;
+  --cornflower: #e7e9fc;
+  --ocean: #404bbf;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  background-color: var(--white);
+  color: var(--slate);
+}
+
+/* common styles */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+}
+.subtitle-20 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--navy-blue);
+}
+
+/* INDEX */
+
+/* Header */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  letter-spacing: 0, 03em;
+
+  color: var(--navy-blue);
+}
+.accent {
+  color: var(--iris);
+}
+
+.nav-list {
+}
+.nav-link {
+  font-weight: 500;
+
+  color: var(--navy-blue);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--ocean);
+}
+
+.contacts-list {
+}
+.contact {
+  font-style: normal;
+
+  color: var(--slate);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--ocean);
+}
+
+/* Main */
+
+/* hero */
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.1;
+
+  color: var(--white);
+
+  text-align: center;
+}
+.hero-btn {
+  color: var(--white);
+  background-color: var(--iris);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean);
+}
+
+/* advantages */
+
+.advantages-title {
+}
+.advantages-subtitle {
+}
+.advantages-text {
+}
+
+/* work */
+.team-title,
+.work-title {
+  font-size: 36px;
+  line-height: 1.1;
+
+  color: var(--navy-blue);
+
+  text-align: center;
+  text-transform: capitalize;
+}
+.work-img {
+}
+
+/* team */
+.team {
+  background-color: var(--cloud);
+}
+.team-title {
+}
+.team-cards {
+}
+.team-card {
+}
+.team-subtitle {
+}
+.team-img {
+}
+.team-text {
+}
+
+/* Footer */
+.footer {
+  background-color: var(--navy-blue);
+}
+.cloud-color {
+  color: var(--cloud);
+}
+.footer-text {
+  color: var(--cornflower);
+}
+
+/* PORTFOLIO */
+
+/* Main */
+
+.filter-list {
+}
+.filter-btn {
+  color: var(--iris);
+  background-color: var(--cloud);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.filter-cards {
+}
+.filter-img {
+}
+.filter-title {
+}
+
+.filter-text {
+}
