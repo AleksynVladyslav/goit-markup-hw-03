@@ -136,13 +136,16 @@ ul {
 .contacts-list > .list-item + .list-item {
   margin-left: 40px;
 }
-.contact {
+.contact-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-style: normal;
 
   color: var(--slate);
 }
-.contact:hover,
-.contact:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--ocean);
 }
 
